@@ -25,6 +25,6 @@ stages:
       inputs:
         command: buildAndPush
         repository: test
-        containerRegistry: amarisregistry
+        containerRegistry: amarisregistry-connection
         tags: |
           $(tag)
